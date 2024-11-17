@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+*{
+    margin: 0px; padding: 0px;
+}
+
+.resume-container{
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    left: 50%;
+    top: 50%;   
+}
+
+.left-section {
+    width: 40%;
+    background-color: #4a0994;
+    color: #fff;
+    padding: 10px;
+    padding-left: 4px;
+}
+
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+.profile-img {
+    width: 150px;
+    height: 90%;
+    background-color:  #4a0994;
+    border-radius: 60%;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border: 10px solid  #4a0994;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 70%;
+}
+.box{
+    position: relative;
+}
+.heading{
+    background-color: #eec719;
+    padding: 0.1px;
+    color: #ee0e0e;
+    text-align: left;
+    padding-left: 1px;
+    margin-right: -11px;
+    margin-left: -4px;
+}
+.p1{
+    padding: 9px 10px;
+    font-size: 11px;
+}
+.skill-container{
+    width: 90%;
+    background-color: #eec719;
+    margin: 0px 10px;
+}
+.skill{
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    color: #f4f4f4;
+}
+
+.links a {
+    color: #70f008;
+}
+.aa{
+    width: 90%;
+    background-color: white;
+}
+.bb{
+    width: 80%;
+    background-color: white;
+}
+.cc{
+    width: 70%;
+    background-color:  white;
+}
+.dd{
+    width: 60%;
+    background-color: white;
+}
+.objective{
+    margin-bottom: 0px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.projects, .education {
+    margin-bottom: 20px;
+    
+}
+.experience{
+    margin-bottom: 20px;
+    padding-left: 20px;    
+}
